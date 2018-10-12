@@ -17,6 +17,7 @@ We have a network of mobile devices through this product(could probably be an ap
 Here we get this data, have our hosted Machine Learning Models incorporated with AI based algorithms, we send our raw data to them as input, have it processed and it would conclude whether these vibrations could be due to an earthquake or not.
 
 ############ Some Technical Details ###########
+
 The accelerometer will show deviations always due to the constant disturbances from external sources. (As in, random using of device, the air flow rates, air blows due to fans, ACs, sound vibrations, travelling, etc.) In the first phase of the app(could be the first week of release when we have some users), we approximate the disturbances through these sources by our ML models. This would be based on principle of averaging out the disturbances(as they are completely random). Now we have a base range of disturbances which we interpret as normal. Now, when we receive fluctuations in vibrations upto certain levels from many devices, this would lead to a sudden deviation from the normal range in the region close to the core of earthquake i.e. source of these vibrations. The extent of change is an important parameter over here.
 For these vibrations to be due to an earthquake, this change has to be in particular range. We send this change % to our AI, ML Models. We will use GeoLocation APIs to get current windspeed, etc at the place in concern. According to the windspeed, we define this normal range.
 
@@ -30,6 +31,7 @@ So, if given a chance to work on this, maybe this idea can actually change the w
 Thanks for reading.
 
 ############# APPENDIX #############
+
 We browsed the internet for some technologies that will be used in our actual implementation of the above idea.
 
 -> An accelerometer is a sensor that measures the dynamic acceleration of a physical device as a voltage. Accelerometers are full-contact transducers typically mounted directly on high-frequency elements, such as rolling-element bearings, gearboxes, or spinning blades. These versatile sensors can also be used in shock measurements (explosions and failure tests) and slower, low-frequency vibration measurements. The benefits of an accelerometer include linearity over a wide frequency range and a large dynamic range. Read more here: http://www.ni.com/white-paper/3807/en/
