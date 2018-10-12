@@ -1,4 +1,4 @@
-<pre>
+
 I know you are already fed up reading ideas of many groups planning to work on minimising the damage due to these natural disasters or helping get relief funds from different parts of the world. But wait, the motive of this hackathon was to "PREDICT" disasters, not their after effects. So, here we present a unique idea which would actually go in hand with the actual motto of this hackathon.
 
 Let's begin to discuss on an idea which if executed properly with a highly motivated and talented team can do wonders and help revolutionalise the present scenario of Disaster Prediction and hence Prevention.
@@ -48,7 +48,10 @@ P.S: Ofcourse, this list is very brief and we will add a lot many _jargons_ when
 
 Team Members:
 Nayan Khanna (Sophomore pursuing Integrated B.E. Computer Science and Mathematics at BITS Pilani)
+
 LinkedIn: https://linkedin.com/in/nayankhanna
+
 Keshav Sethi (Sophomore pursuing Integrated B.E. Electrical and Electronics and Economics at BITS Pilani)
+
 LinkedIn: https://www.linkedin.com/in/keshav-sethi-b1788a157
-</pre>
+
