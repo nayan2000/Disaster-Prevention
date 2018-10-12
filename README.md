@@ -3,7 +3,7 @@ I know you are already fed up reading ideas of many groups planning to work on m
 
 Let's begin to discuss on an idea which if executed properly with a highly motivated and talented team can do wonders and help revolutionalise the present scenario of Disaster Prediction and hence Prevention.
 
-<h6 style="color:blue">Aim: To predict an earthquake and take suitable measures if detected one.</h6>
+<h4 style="color:blue">Aim: To predict an earthquake and take suitable measures if detected one.</h6>
 
 What's our plan?
 In today's time, everybody has a smartphone. Right? And most of the smartphones today have inbuilt accelerometer sensors in them which can detect nearby vibrations along with many other physical parameters associated with a device's physical location as well as alignment.
@@ -17,21 +17,21 @@ I know this sounds vague, but hold on.
 We have a network of mobile devices through this product(could probably be an app). Now, if we receive vibrations from many mobiles in a certain region, this means there are some common disturbances/vibrations existing in that area.
 Here we get this data, have our hosted Machine Learning Models incorporated with AI based algorithms, we send our raw data to them as input, have it processed and it would conclude whether these vibrations could be due to an earthquake or not.
 
-<h6 style="color:blue">############ Some Technical Details ###########</h6>
+<h4 style="color:blue">############ Some Technical Details ###########</h6>
 
 The accelerometer will show deviations always due to the constant disturbances from external sources. (As in, random using of device, the air flow rates, air blows due to fans, ACs, sound vibrations, travelling, etc.) In the first phase of the app(could be the first week of release when we have some users), we approximate the disturbances through these sources by our ML models. This would be based on principle of averaging out the disturbances(as they are completely random). Now we have a base range of disturbances which we interpret as normal. Now, when we receive fluctuations in vibrations upto certain levels from many devices, this would lead to a sudden deviation from the normal range in the region close to the core of earthquake i.e. source of these vibrations. The extent of change is an important parameter over here.
 For these vibrations to be due to an earthquake, this change has to be in particular range. We send this change % to our AI, ML Models. We will use GeoLocation APIs to get current windspeed, etc at the place in concern. According to the windspeed, we define this normal range.
 
 Fact: The change in fluctuations in the vibrations due to an earthquake would be greater than a lower value(which would incorporate the vibration fluctuations due to local reasons). So, if that % change is greater than this lower value, we would sense a possibility of an earthquake. And on the basis of this increase, we will identify the magnitude of the disturbances and henceforth, decide the range of people nearby core to be alerted based on the distance of the location from the core.
 
-<h6 style="color:red">## Important Note:</h6>
+<h4 style="color:red">## Important Note:</h6>
 
 I hope you realise that in such a short time, that too near our midsems, we have presented a raw but relevant and unique idea.
 We are already working on covering some more test cases, and have a bunch of ideas which when incorporated here would make this highly close to real world usage.
 So, if given a chance to work on this, maybe this idea can actually change the world.
 Thanks for reading.
 
-<h6 style="color:blue">############# APPENDIX #############</h6>
+<h4 style="color:blue">############# Appendix #############</h6>
 
 We browsed the internet for some technologies that will be used in our actual implementation of the above idea.
 
